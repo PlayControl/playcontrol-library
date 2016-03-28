@@ -1,6 +1,6 @@
 {
   "name": "playcontrol-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "library module that defines how relationships work in you library",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
     "url": "https://github.com/pushrocks/gulp-bootstrap/issues"
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "npmts": "^3.6.8"
   }
