@@ -7,7 +7,7 @@ var libraryStore:any = [];
 
 var playcontrolLibrary = {
     new: function(name:string = "undefined"){
-        var newLibrary = new Library(name);
+        var newLibrary = new classes.Library(name);
         libraryStore.push(newLibrary);
         return newLibrary;
     }

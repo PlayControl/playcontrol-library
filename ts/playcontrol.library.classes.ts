@@ -1,4 +1,4 @@
-/// <reference path="./ts/main.d.ts" />
+/// <reference path="./typings/main.d.ts" />
 export class Library {
     name:string;
     albums:Album[];

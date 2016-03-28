@@ -22,12 +22,8 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
-    "npmts": "^3.6.8",
-    "pushrocks": "1.0.18",
-    "through2": "2.0.0"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.9.2"
+    "npmts": "^3.6.8"
   }
 }
