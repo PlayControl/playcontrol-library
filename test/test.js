@@ -1,5 +1,4 @@
 /// <reference path="../ts/typings/main.d.ts" />
-require("./index.js");
+require("./dist/index.js");
 console.log("test now executing");
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0RBQWdEO0FBQ2hELE9BQU8sQ0FBQyxZQUFZLENBQUMsQ0FBQztBQUN0QixPQUFPLENBQUMsR0FBRyxDQUFDLG9CQUFvQixDQUFDLENBQUMiLCJmaWxlIjoidGVzdC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vLyA8cmVmZXJlbmNlIHBhdGg9XCIuLi90cy90eXBpbmdzL21haW4uZC50c1wiIC8+XG5yZXF1aXJlKFwiLi9pbmRleC5qc1wiKTtcbmNvbnNvbGUubG9nKFwidGVzdCBub3cgZXhlY3V0aW5nXCIpOyJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
+//# sourceMappingURL=test.js.map

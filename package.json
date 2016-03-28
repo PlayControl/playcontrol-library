@@ -2,7 +2,7 @@
   "name": "playcontrol-library",
   "version": "0.0.2",
   "description": "library module that defines how relationships work in you library",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "(npmts)"
   },
