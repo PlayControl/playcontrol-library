@@ -21,7 +21,9 @@
     "url": "https://github.com/pushrocks/gulp-bootstrap/issues"
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
-  "dependencies": {},
+  "dependencies": {
+    "should": "^8.3.0"
+  },
   "devDependencies": {
     "npmts": "^3.6.8"
   }

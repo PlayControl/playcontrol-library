@@ -1,3 +1,3 @@
 /// <reference path="../ts/typings/main.d.ts" />
-require("./dist/index.js");
-console.log("test now executing");
+//require("../dist/index.js");
+let should = require("should");

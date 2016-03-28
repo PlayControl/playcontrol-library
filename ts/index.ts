@@ -1,11 +1,10 @@
 /// <reference path="./typings/main.d.ts" />
 import classes = require("./playcontrol.library.classes");
-var through = require("through2");
-var path = require("path");
+let path = require("path");
 
 var libraryStore:any = [];
 
-var playcontrolLibrary = {
+let playcontrolLibrary = {
     new: function(name:string = "undefined"){
         var newLibrary = new classes.Library(name);
         libraryStore.push(newLibrary);
