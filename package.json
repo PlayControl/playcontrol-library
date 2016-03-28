@@ -1,16 +1,10 @@
 {
-  "name": "gulp-bootstrap",
-  "version": "1.0.13",
-  "description": "works with gulp, but does nothing. Use it to bootstrap your own gulp plugin with TypeScript, Travis and npm.",
+  "name": "playcontrol-library",
+  "version": "0.0.1",
+  "description": "library module that defines how relationships work in you library",
   "main": "index.js",
   "scripts": {
-    "test": "(cd ts/compile && node compile.js) && (node ./test.js)",
-    "gitsetup": "(git config push.followTags true)",
-    "push": "(git push origin master && git push origin release && git push --follow-tags)",
-    "reinstall": "(rm -r node_modules && npm install)",
-    "release": "(npm test) && (git pull origin master && npm version patch && git checkout release && git merge master && git checkout master && npm run push)",
-    "update": "(git checkout master && git pull origin master) && (npm install)",
-    "upgrade": "(npm run update) && (ncu upgradeAll && npm install)"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -21,13 +15,14 @@
     "jade",
     "template"
   ],
-  "author": "Smart Coordination GmbH <office@push.rocks> (https://push.rocks)",
+  "author": "Lossless GmbH <office@lossless.com> (https://lossless.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pushrocks/gulp-bootstrap/issues"
   },
   "homepage": "https://github.com/pushrocks/gulp-bootstrap",
   "dependencies": {
+    "npmts": "^3.6.8",
     "pushrocks": "1.0.18",
     "through2": "2.0.0"
   },

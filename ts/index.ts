@@ -1,5 +1,5 @@
-/// <reference path="./typings/tsd.d.ts" />
-/// <reference path="./playcontrol.library.classes.ts" />
+/// <reference path="./typings/main.d.ts" />
+import classes = require("./playcontrol.library.classes");
 var through = require("through2");
 var path = require("path");
 

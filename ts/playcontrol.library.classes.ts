@@ -1,5 +1,5 @@
-/// <reference path="./index.ts" />
-class Library {
+/// <reference path="./ts/main.d.ts" />
+export class Library {
     name:string;
     albums:Album[];
     constructor(nameArg:string){
@@ -10,7 +10,7 @@ class Library {
     }
 }
 
-class Album {
+export class Album {
     name:string;
     date:{};
     songs:Song[];
@@ -22,7 +22,7 @@ class Album {
     };
 }
 
-class Song {
+export class Song {
     title:string;
     genre:Genre;
     text:string;
@@ -32,15 +32,16 @@ class Song {
     };
 }
 
-class Artist {
+export class Artist {
     constructor(){
 
     };
 }
 
-class Genre {
+export class Genre {
     name:string;
     constructor(){
 
     };
 }
+
