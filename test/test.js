@@ -1,5 +1,4 @@
 /// <reference path="../ts/typings/main.d.ts" />
 //require("../dist/index.js");
 var should = require("should");
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0RBQWdEO0FBQ2hELDhCQUE4QjtBQUM5QixJQUFJLE1BQU0sR0FBRyxPQUFPLENBQUMsUUFBUSxDQUFDLENBQUMiLCJmaWxlIjoidGVzdC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vLyA8cmVmZXJlbmNlIHBhdGg9XCIuLi90cy90eXBpbmdzL21haW4uZC50c1wiIC8+XG4vL3JlcXVpcmUoXCIuLi9kaXN0L2luZGV4LmpzXCIpO1xubGV0IHNob3VsZCA9IHJlcXVpcmUoXCJzaG91bGRcIik7Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
+//# sourceMappingURL=test.js.map
